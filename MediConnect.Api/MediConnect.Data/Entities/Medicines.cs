@@ -10,6 +10,7 @@ namespace MediConnect.Data.Entities
     {
         public string MedicineID { get; set; }
         public string Name { get; set; }
+        public string AdminID { get; set; }
         public string Manufacturer { get; set; }
         public decimal UnitPrice { get; set; }
         public decimal Discount { get; set; }
@@ -17,5 +18,6 @@ namespace MediConnect.Data.Entities
         public DateTime ExpiryDate { get; set; }
         public string ImageUrl { get; set; }
         public int status { get; set; }
+        public List<OrderItems> OrderItems { get; set; }
     }
 }

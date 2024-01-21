@@ -14,6 +14,7 @@ namespace MediConnect.Data.Entities
         public string Password { get; set; }
         public string Email { get; set; }
         public decimal Fund { get; set; }
+        public decimal Amount { get; set; }
         public string Type { get; set; }
         public int Status { get; set; }
         public DateTime CreatedOn { get; set; }
