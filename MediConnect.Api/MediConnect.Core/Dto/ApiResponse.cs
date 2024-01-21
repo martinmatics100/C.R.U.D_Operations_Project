@@ -19,7 +19,7 @@ namespace MediConnect.Core.Dto
             Message = message;
         }
 
-        public static ApiResponse Success (object data)
+        public static ApiResponse Success(object data)
         {
             return new ApiResponse
             {
@@ -28,7 +28,7 @@ namespace MediConnect.Core.Dto
             };
         }
 
-        public static ApiResponse Failed (object data, string Message = "Failure", List<string> errors = null)
+        public static ApiResponse Failed(object data, string Message = "Failure", List<string> errors = null)
         {
             return new ApiResponse
             {
@@ -43,5 +43,38 @@ namespace MediConnect.Core.Dto
     public class ApiResponse<T> : ApiResponse
     {
         public T Data { get; set; }
+
+        public ApiResponse()
+        {
+            
+        }
+
+        public static ApiResponse Success(T data, string message)
+        {
+            return new ApiResponse<T>
+            {
+                Succeseded = true,
+                Data = data,
+                Message = message
+            };
+        }
+
+        public static ApiResponse Failed(T data, string message = null, List<string> errors = null)
+        {
+            return new ApiResponse
+            {
+                Succeseded = false,
+                Data = data,
+                Message = message,
+                Errors = errors
+            };
+        }
+
+        public ApiResponse(T data, string message = null)
+        {
+            Succeseded = true;
+            message = message;
+            Data = data;
+        }
     }
 }
