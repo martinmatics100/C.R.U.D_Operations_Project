@@ -1,0 +1,11 @@
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\bin\Debug\net7.0\MediConnect.Infrastructure.deps.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\bin\Debug\net7.0\MediConnect.Infrastructure.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\bin\Debug\net7.0\MediConnect.Infrastructure.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\MediConnect.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\MediConnect.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\MediConnect.Infrastructure.AssemblyInfo.cs
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\MediConnect.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\MediConnect.Infrastructure.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\refint\MediConnect.Infrastructure.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\MediConnect.Infrastructure.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\MediConnect_BE\MediConnect_BE\MediConnect.Api\MediConnect.Infrastructure\obj\Debug\net7.0\ref\MediConnect.Infrastructure.dll
