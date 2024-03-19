@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FvLlMnTo2so35dp/rJgHluTuJXU2P/GggZqiiOw6u+T8Q+D2lTgT1oLO+4pCtC5TnNkCRDs7SyH7yvjZUQaAcg==",
+  "dgSpecHash": "aMNAS6BZZzSb+I9ZpXocZfaojp4ZpWZksNyEpDdQ+iNEpUCDVE7MPqiWCbMKPm22KwvmJuD1BtU3W8l9ceE2bA==",
   "success": true,
   "projectFilePath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\BE_CRUD_Operations.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -45,6 +46,7 @@
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

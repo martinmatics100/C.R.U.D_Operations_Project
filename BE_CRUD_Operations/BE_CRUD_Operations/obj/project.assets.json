@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -706,6 +722,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Serilog/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -1239,6 +1268,21 @@
           }
         }
       },
+      "BE_CRUD_Operations.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "BE_CRUD_Operations.Data": "1.0.0",
+          "Serilog": "3.1.1"
+        },
+        "compile": {
+          "bin/placeholder/BE_CRUD_Operations.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BE_CRUD_Operations.Core.dll": {}
+        }
+      },
       "BE_CRUD_Operations.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1256,6 +1300,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -2484,6 +2543,33 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "Serilog/3.1.1": {
+      "sha512": "P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
+      "type": "package",
+      "path": "serilog/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
+        "lib/net5.0/Serilog.dll",
+        "lib/net5.0/Serilog.xml",
+        "lib/net6.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/net7.0/Serilog.dll",
+        "lib/net7.0/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.3.1.1.nupkg.sha512",
+        "serilog.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.5.0": {
@@ -3923,6 +4009,11 @@
         "version.txt"
       ]
     },
+    "BE_CRUD_Operations.Core/1.0.0": {
+      "type": "project",
+      "path": "../BE_CRUD_Operations.Core/BE_CRUD_Operations.Core.csproj",
+      "msbuildProject": "../BE_CRUD_Operations.Core/BE_CRUD_Operations.Core.csproj"
+    },
     "BE_CRUD_Operations.Data/1.0.0": {
       "type": "project",
       "path": "../BE_CRUD_Operations.Data/BE_CRUD_Operations.Data.csproj",
@@ -3931,6 +4022,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BE_CRUD_Operations.Core >= 1.0.0",
       "BE_CRUD_Operations.Data >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
@@ -3971,6 +4063,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj": {
+              "projectPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj"
+            },
             "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Data\\BE_CRUD_Operations.Data.csproj": {
               "projectPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Data\\BE_CRUD_Operations.Data.csproj"
             }

@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BE_CRUD_Operations.Core\BE_CRUD_Operations.Core.csproj" />
     <ProjectReference Include="..\BE_CRUD_Operations.Data\BE_CRUD_Operations.Data.csproj" />
   </ItemGroup>
 

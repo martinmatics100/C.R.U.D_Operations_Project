@@ -1,11 +1,15 @@
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\bin\Debug\net7.0\BE_CRUD_Operations.Core.deps.json
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\bin\Debug\net7.0\BE_CRUD_Operations.Core.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\bin\Debug\net7.0\BE_CRUD_Operations.Core.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\bin\Debug\net7.0\BE_CRUD_Operations.Data.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\bin\Debug\net7.0\BE_CRUD_Operations.Data.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.csproj.AssemblyReference.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.AssemblyInfoInputs.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.AssemblyInfo.cs
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.csproj.CoreCompileInputs.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.sourcelink.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_.63ABDE43.Up2Date
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\refint\BE_CRUD_Operations.Core.dll
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Core\obj\Debug\net7.0\BE_CRUD_Operations.Core.pdb

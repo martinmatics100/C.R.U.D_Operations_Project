@@ -1,4 +1,7 @@
-﻿using BE_CRUD_Operations.Data.AppDbContext;
+﻿using BE_CRUD_Operations.Core.Implementation;
+using BE_CRUD_Operations.Core.Services;
+using BE_CRUD_Operations.Data.AppDbContext;
+using BE_CRUD_Operations.MappinFolder;
 using Microsoft.EntityFrameworkCore;
 
 namespace BE_CRUD_Operations.Extension
@@ -11,6 +14,10 @@ namespace BE_CRUD_Operations.Extension
             {
                 options.UseSqlServer(configuration.GetConnectionString("conn"));
             });
+
+            services.AddAutoMapper(typeof(MappingProfile));
+
+            services.AddScoped<IStudentService, StudentService>();
         }
     }
 }
