@@ -28,7 +28,6 @@ namespace BE_CRUD_Operations.Data.Models
 
         public Student()
         {
-            //Generate a Unique GUID as the studentId
             StudentId = Guid.NewGuid().ToString();
         }
     }

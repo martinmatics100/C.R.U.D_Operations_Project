@@ -64,7 +64,6 @@ C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Oper
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.AssemblyInfoInputs.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.AssemblyInfo.cs
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.csproj.CoreCompileInputs.cache
-C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.sourcelink.json
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\staticwebassets.build.json
@@ -81,3 +80,4 @@ C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Oper
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.pdb
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.genruntimeconfig.cache
 C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\ref\BE_CRUD_Operations.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations\obj\Debug\net7.0\BE_CRUD_Operations.MvcApplicationPartsAssemblyInfo.cs

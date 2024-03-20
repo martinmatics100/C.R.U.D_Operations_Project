@@ -31,7 +31,6 @@ namespace BE_CRUD_Operations.Core.Implementation
         {
             try
             {
-                //var student = CreateStudentMapper.MapStudentDTO_ToStudent(studentDTO);
 
                 var student = _mapper.Map<Student>(studentDTO);
 
@@ -42,7 +41,6 @@ namespace BE_CRUD_Operations.Core.Implementation
             }
             catch(Exception ex)
             {
-                // Print the exception details to the console
                 Console.WriteLine($"An error occurred while creating a student: {ex.Message}"); 
 
                 return false;
@@ -104,25 +102,8 @@ namespace BE_CRUD_Operations.Core.Implementation
                     return false;
                 }
 
-                // Map updated properties from updatedStudentDTO to existingStudent
                 _mapper.Map(updatedStudentDTO, existingStudent);
                 await _context.SaveChangesAsync();
-
-                //// Map updated properties from updatedStudentDTO to a newStudent object
-                //var newStudent = _mapper.Map<Student>(updatedStudentDTO);
-
-                //// Update existingStudent with properties from newStudent
-                //existingStudent.FirstName = newStudent.FirstName;
-                //existingStudent.LastName = newStudent.LastName;
-                //existingStudent.Department = newStudent.Department;
-                //existingStudent.Gender = newStudent.Gender;
-                //existingStudent.DateOfBirth = newStudent.DateOfBirth;
-                //existingStudent.Age = newStudent.Age;
-                //existingStudent.IsGraduated = newStudent.IsGraduated;
-
-                //// Update the student in the database
-                //_context.students.Update(existingStudent);
-                //await _context.SaveChangesAsync();
 
                 return true;
             }

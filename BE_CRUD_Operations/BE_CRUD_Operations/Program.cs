@@ -12,6 +12,17 @@ builder.Services.AddSwaggerGen();
 //Registered the extension method here
 builder.Services.AddDependencies(builder.Configuration);
 
+//Configuring CORS here
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin", builder =>
+    {
+        builder.WithOrigins("http://localhost:3000")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,6 +33,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+//Enabling CORS using the configured policy
+app.UseCors("AllowOrigin");
 
 app.UseAuthorization();
 

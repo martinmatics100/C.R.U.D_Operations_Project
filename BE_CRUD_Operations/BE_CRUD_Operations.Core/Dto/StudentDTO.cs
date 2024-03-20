@@ -37,9 +37,6 @@ namespace BE_CRUD_Operations.Core.Dto
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
             var results = new List<ValidationResult>();
-
-            // Custom validation logic if needed
-            // For example:
             if (DateOfBirth > DateTime.Now)
             {
                 results.Add(new ValidationResult("Date of Birth cannot be in the future", new[] { nameof(DateOfBirth) }));
