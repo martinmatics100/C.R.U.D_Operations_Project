@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 //Registered the extension method here
 builder.Services.AddDependencies(builder.Configuration);
 
-//Configuring CORS here
+//Configuring CORS here!.
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowOrigin", builder =>
