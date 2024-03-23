@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "NkHKXAPBsER8zm17s4FiVBok0d0NIy4ZunazO7BzIyc=",
-  "Source": "BE_CRUD_Operations",
-  "BasePath": "_content/BE_CRUD_Operations",
+  "Hash": "2gW63Mu2HxMyMVAYGP0qMju9yyrB45DnkbFAnah2/64=",
+  "Source": "BE_CRUD_Operations.Api",
+  "BasePath": "_content/BE_CRUD_Operations.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

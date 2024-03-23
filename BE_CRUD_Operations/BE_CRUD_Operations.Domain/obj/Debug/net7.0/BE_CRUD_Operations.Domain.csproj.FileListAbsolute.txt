@@ -1,0 +1,12 @@
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\bin\Debug\net7.0\BE_CRUD_Operations.Domain.deps.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\bin\Debug\net7.0\BE_CRUD_Operations.Domain.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\bin\Debug\net7.0\BE_CRUD_Operations.Domain.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\BE_CRUD_Operations.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\BE_CRUD_Operations.Domain.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\BE_CRUD_Operations.Domain.AssemblyInfo.cs
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\BE_CRUD_Operations.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\BE_CRUD_Operations.Domain.sourcelink.json
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\BE_CRUD_Operations.Domain.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\refint\BE_CRUD_Operations.Domain.dll
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\BE_CRUD_Operations.Domain.pdb
+C:\Users\marti\Desktop\My-Local-Repo-Folder\CRUD-Operations-Project\C.R.U.D_Operations_Project\BE_CRUD_Operations\BE_CRUD_Operations.Domain\obj\Debug\net7.0\ref\BE_CRUD_Operations.Domain.dll

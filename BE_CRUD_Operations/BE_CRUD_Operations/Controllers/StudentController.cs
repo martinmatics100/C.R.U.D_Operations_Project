@@ -1,5 +1,5 @@
 ﻿using BE_CRUD_Operations.Core.Dto;
-using BE_CRUD_Operations.Core.Services;
+using BE_CRUD_Operations.Core.Interfaces.IServices;
 using BE_CRUD_Operations.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
@@ -14,7 +14,7 @@ namespace BE_CRUD_Operations.Controllers
     {
         private readonly IStudentService _service;
 
-        public StudentController(IStudentService service)
+        public StudentController(IStudentService service) 
         {
             _service = service;
         }

@@ -1378,7 +1378,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "BE_CRUD_Operations.Data": "1.0.0",
+          "BE_CRUD_Operations.Domain": "1.0.0",
           "Serilog": "3.1.1"
         },
         "compile": {
@@ -1392,6 +1392,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "BE_CRUD_Operations.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
         },
@@ -1400,6 +1401,16 @@
         },
         "runtime": {
           "bin/placeholder/BE_CRUD_Operations.Data.dll": {}
+        }
+      },
+      "BE_CRUD_Operations.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BE_CRUD_Operations.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BE_CRUD_Operations.Domain.dll": {}
         }
       }
     }
@@ -4201,6 +4212,11 @@
       "type": "project",
       "path": "../BE_CRUD_Operations.Data/BE_CRUD_Operations.Data.csproj",
       "msbuildProject": "../BE_CRUD_Operations.Data/BE_CRUD_Operations.Data.csproj"
+    },
+    "BE_CRUD_Operations.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BE_CRUD_Operations.Domain/BE_CRUD_Operations.Domain.csproj",
+      "msbuildProject": "../BE_CRUD_Operations.Domain/BE_CRUD_Operations.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4221,9 +4237,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\BE_CRUD_Operations.csproj",
-      "projectName": "BE_CRUD_Operations",
-      "projectPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\BE_CRUD_Operations.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\BE_CRUD_Operations.Api.csproj",
+      "projectName": "BE_CRUD_Operations.Api",
+      "projectPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\BE_CRUD_Operations.Api.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\obj\\",
       "projectStyle": "PackageReference",

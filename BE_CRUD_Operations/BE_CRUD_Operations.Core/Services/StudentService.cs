@@ -1,29 +1,27 @@
 ﻿using AutoMapper;
 using BE_CRUD_Operations.Core.Dto;
+using BE_CRUD_Operations.Core.Interfaces.IRepository;
+using BE_CRUD_Operations.Core.Interfaces.IServices;
+
 //using BE_CRUD_Operations.Core.Mapper;
-using BE_CRUD_Operations.Core.Services;
-using BE_CRUD_Operations.Data.AppDbContext;
 using BE_CRUD_Operations.Data.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Serilog.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BE_CRUD_Operations.Core.Implementation
 {
     public class StudentService : IStudentService
     {
-        private readonly CRUD_DbContext _context;
+        private readonly IBaseRepository<Student> _baseRepository;
         private readonly IMapper _mapper;
 
-        public StudentService(CRUD_DbContext context, IMapper mapper)
+        public StudentService(IBaseRepository<Student> baseRepository, IMapper mapper)
         {
-            _context = context;
+            _baseRepository = baseRepository;
             _mapper = mapper;
         }
 
@@ -34,8 +32,13 @@ namespace BE_CRUD_Operations.Core.Implementation
 
                 var student = _mapper.Map<Student>(studentDTO);
 
-                _context.students.Add(student);
-                await _context.SaveChangesAsync();
+                if(student == null)
+                {
+                    return false;
+                }
+                await _baseRepository.AddAsync(student);
+
+                var createdStudentId = student.StudentId.ToString();
 
                 return true;
             }
@@ -51,13 +54,12 @@ namespace BE_CRUD_Operations.Core.Implementation
         {
             try
             {
-                var studentToDelete = await _context.students.FindAsync(studentId);
+                var studentToDelete = await _baseRepository.GetByIdAsync(studentId);
 
                 if (studentToDelete == null)
                     return false;
 
-                _context.students.Remove(studentToDelete);
-                await _context.SaveChangesAsync();
+                await _baseRepository.DeleteAsync(studentToDelete);
 
                 return true;
             }
@@ -69,7 +71,7 @@ namespace BE_CRUD_Operations.Core.Implementation
 
         public async Task<IEnumerable<StudentDTO>> GetAllStudents()
         {
-            var students = await _context.students.ToListAsync();
+            var students = await _baseRepository.GetAllAsync();
             return _mapper.Map<IEnumerable<StudentDTO>>(students);
         }
 
@@ -77,7 +79,7 @@ namespace BE_CRUD_Operations.Core.Implementation
         {
             try
             {
-                var gottenStudent = await _context.students.FirstOrDefaultAsync(s => s.StudentId == studentId);
+                var gottenStudent = await _baseRepository.GetByIdAsync(studentId);
 
                 if (gottenStudent == null)
                     return null;
@@ -94,7 +96,7 @@ namespace BE_CRUD_Operations.Core.Implementation
         {
             try
             {
-                var existingStudent = await _context.students.FindAsync(studentId);
+                var existingStudent = await _baseRepository.GetByIdAsync(studentId);
 
                 if(existingStudent == null)
                 {
@@ -103,7 +105,7 @@ namespace BE_CRUD_Operations.Core.Implementation
                 }
 
                 _mapper.Map(updatedStudentDTO, existingStudent);
-                await _context.SaveChangesAsync();
+                await _baseRepository.UpdateAsync(existingStudent);
 
                 return true;
             }

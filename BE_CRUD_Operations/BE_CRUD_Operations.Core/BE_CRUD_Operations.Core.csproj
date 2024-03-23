@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BE_CRUD_Operations.Data\BE_CRUD_Operations.Data.csproj" />
+    <ProjectReference Include="..\BE_CRUD_Operations.Domain\BE_CRUD_Operations.Domain.csproj" />
   </ItemGroup>
 
 </Project>

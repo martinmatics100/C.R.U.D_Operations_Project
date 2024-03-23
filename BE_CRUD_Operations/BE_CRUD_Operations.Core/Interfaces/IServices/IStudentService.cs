@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BE_CRUD_Operations.Core.Services
+namespace BE_CRUD_Operations.Core.Interfaces.IServices
 {
     public interface IStudentService
     {

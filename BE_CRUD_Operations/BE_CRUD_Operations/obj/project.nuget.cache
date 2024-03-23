@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jbE+YgJAkIv+Pzxw8bcWd3AjpMvxf1+SpHIVOlka+ji1JADCh1w7gD8uYQrl4cx56ulcPivCZGjQtBMDODILQ==",
+  "dgSpecHash": "wt19cpalTNsosK+ZwQ+gux4ua3PF9ATzmuk0b5vmfL25+tlo0myHJPZ99cFd+2Rm8JJ+z14ZMHT0v5KmnzfZZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\BE_CRUD_Operations.csproj",
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\BE_CRUD_Operations.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

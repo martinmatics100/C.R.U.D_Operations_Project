@@ -86,6 +86,8 @@ const AddStudentForm = ({ onAddStudent }) => {
           <option value="">Select Gender</option>
           <option value="0">Male</option>
           <option value="1">Female</option>
+          <option value="2">NonBinary</option>
+          <option value="3">Other</option>
         </select>
       </div>
       <div>

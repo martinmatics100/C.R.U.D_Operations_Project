@@ -2,7 +2,18 @@ import React from "react";
 import AddStudentForm from "./AddStudentForm";
 
 const getGenderLabel = (gender) => {
-  return gender === 0 ? "Male" : "Female";
+  switch (gender) {
+    case 0:
+      return "Male";
+    case 1:
+      return "Female";
+    case 2:
+      return "NonBinary";
+    case 3:
+      return "Other";
+    default:
+      return "Unknown";
+  }
 };
 
 const StudentTable = ({ students, onEdit, onDelete }) => {
@@ -19,8 +30,7 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
       <table className="table table-striped">
         <thead>
           <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
+            <th>Student Name</th>
             <th>Department</th>
             <th>Gender</th>
             <th>Date of Birth</th>
@@ -32,8 +42,8 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
         <tbody>
           {students.map((student, index) => (
             <tr key={index}>
-              <td>{student.firstName}</td>
-              <td>{student.lastName}</td>
+              <td>{`${student.firstName} ${""} ${student.lastName}`}</td>
+              {/* <td>{student.lastName}</td> */}
               <td>{student.department}</td>
               <td>{getGenderLabel(student.gender)}</td>{" "}
               {/* Render gender label */}
