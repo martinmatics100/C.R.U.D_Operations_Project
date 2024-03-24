@@ -130,7 +130,7 @@ namespace BE_CRUD_Operations.Controllers
         }
 
 
-        [HttpDelete("{id}")]
+        [HttpDelete]
         public async Task<IActionResult> Delete(string studentId)
         {
             try

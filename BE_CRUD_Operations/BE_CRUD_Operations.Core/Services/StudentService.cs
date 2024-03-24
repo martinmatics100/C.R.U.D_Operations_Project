@@ -69,7 +69,7 @@ namespace BE_CRUD_Operations.Core.Implementation
             }
         }
 
-        public async Task<IEnumerable<StudentDTO>> GetAllStudents()
+        public async Task<IEnumerable<StudentDTO>> GetAllStudents() 
         {
             var students = await _baseRepository.GetAllAsync();
             return _mapper.Map<IEnumerable<StudentDTO>>(students);

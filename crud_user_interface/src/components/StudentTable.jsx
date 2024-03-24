@@ -1,5 +1,4 @@
 import React from "react";
-import AddStudentForm from "./AddStudentForm";
 
 const getGenderLabel = (gender) => {
   switch (gender) {
@@ -26,7 +25,6 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
 
   return (
     <div>
-      <AddStudentForm />
       <table className="table table-striped">
         <thead>
           <tr>
@@ -40,32 +38,47 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
           </tr>
         </thead>
         <tbody>
-          {students.map((student, index) => (
-            <tr key={index}>
-              <td>{`${student.firstName} ${""} ${student.lastName}`}</td>
-              {/* <td>{student.lastName}</td> */}
-              <td>{student.department}</td>
-              <td>{getGenderLabel(student.gender)}</td>{" "}
-              {/* Render gender label */}
-              <td>{student.dateOfBirth}</td>
-              <td>{student.age}</td>
-              <td>{student.isGraduated ? "Yes" : "No"}</td>
-              <td>
-                <button
-                  className="btn btn-primary mr-2"
-                  onClick={() => onEdit(index)}
-                >
-                  Edit
-                </button>
-                <button
-                  className="btn btn-danger"
-                  onClick={() => onDelete(index)}
-                >
-                  Delete
-                </button>
+          {students.length === 0 ? (
+            <tr>
+              <td
+                colSpan="7"
+                style={{
+                  textAlign: "center",
+                  color: "red",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
+              >
+                NO DETAILS FOUND.
               </td>
             </tr>
-          ))}
+          ) : (
+            students.map((student, index) => (
+              <tr key={index}>
+                <td>{`${student.firstName} ${student.lastName}`}</td>
+                <td>{student.department}</td>
+                <td>{getGenderLabel(student.gender)}</td>{" "}
+                {/* Render gender label */}
+                <td>{student.dateOfBirth}</td>
+                <td>{student.age}</td>
+                <td>{student.isGraduated ? "Yes" : "No"}</td>
+                <td>
+                  <button
+                    className="btn btn-primary mr-2"
+                    onClick={() => onEdit(index)}
+                  >
+                    Edit
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={() => onDelete(index)}
+                  >
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            ))
+          )}
         </tbody>
       </table>
     </div>
