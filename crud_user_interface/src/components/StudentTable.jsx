@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import AddStudentModal from "./AddStudentModal";
 
 const getGenderLabel = (gender) => {
   switch (gender) {
@@ -23,8 +25,18 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
 
   console.log("Students in StudentTable:", students); // Log students in StudentTable component
 
+  const [showAddModal, setShowAddModal] = useState(false);
+
+  const handleAddButtonClick = () => {
+    console.log("Add Student button clicked");
+    setShowAddModal(true);
+  };
+
   return (
     <div>
+      <button className="btn btn-primary mb-2" onClick={handleAddButtonClick}>
+        Add Student
+      </button>
       <table className="table table-striped">
         <thead>
           <tr>
@@ -81,6 +93,15 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
           )}
         </tbody>
       </table>
+
+      <AddStudentModal
+        onAdd={(newStudent) => {
+          // Handle adding new student here
+          console.log("Adding new student:", newStudent);
+          // Close the modal after adding student
+          setShowAddModal(false);
+        }}
+      />
     </div>
   );
 };

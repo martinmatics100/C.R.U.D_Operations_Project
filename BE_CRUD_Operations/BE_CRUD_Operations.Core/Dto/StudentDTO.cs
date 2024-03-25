@@ -44,5 +44,8 @@ namespace BE_CRUD_Operations.Core.Dto
 
             return results;
         }
+
+        // Add a computed property to return DateOfBirth as a string in the desired format
+        public string FormattedDateOfBirth => DateOfBirth.ToString("yyyy-MM-dd");
     }
 }

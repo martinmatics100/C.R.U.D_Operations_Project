@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,8 @@ namespace BE_CRUD_Operations.Data.Models
 
         public Gender Gender { get; set; }
 
+        // Map DateOfBirth to a Date column type in the database
+        [Column(TypeName = "Date")]
         public DateTime DateOfBirth { get; set; }
 
         public int Age { get; set; }
