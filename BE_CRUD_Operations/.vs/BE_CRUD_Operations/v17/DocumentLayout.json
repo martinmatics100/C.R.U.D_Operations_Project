@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7612ED7E-075A-42BD-9CAC-DD2B7A74141A}|BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj|solutionrelative:be_crud_operations.core\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7612ED7E-075A-42BD-9CAC-DD2B7A74141A}|BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\crud-operations-project\\c.r.u.d_operations_project\\be_crud_operations\\be_crud_operations.core\\responsedto\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7612ED7E-075A-42BD-9CAC-DD2B7A74141A}|BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj|solutionrelative:be_crud_operations.core\\responsedto\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DB932F9-47B3-43F7-9F07-8B56113DD46B}|BE_CRUD_Operations.Domain\\BE_CRUD_Operations.Domain.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\crud-operations-project\\c.r.u.d_operations_project\\be_crud_operations\\be_crud_operations.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DB932F9-47B3-43F7-9F07-8B56113DD46B}|BE_CRUD_Operations.Domain\\BE_CRUD_Operations.Domain.csproj|solutionrelative:be_crud_operations.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7612ED7E-075A-42BD-9CAC-DD2B7A74141A}|BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\crud-operations-project\\c.r.u.d_operations_project\\be_crud_operations\\be_crud_operations.core\\interfaces\\iservices\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7612ED7E-075A-42BD-9CAC-DD2B7A74141A}|BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj|solutionrelative:be_crud_operations.core\\interfaces\\iservices\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7612ED7E-075A-42BD-9CAC-DD2B7A74141A}|BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\crud-operations-project\\c.r.u.d_operations_project\\be_crud_operations\\be_crud_operations.core\\responsedto\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7612ED7E-075A-42BD-9CAC-DD2B7A74141A}|BE_CRUD_Operations.Core\\BE_CRUD_Operations.Core.csproj|solutionrelative:be_crud_operations.core\\responsedto\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB9F81F2-159A-4711-94A4-06A202448B44}|BE_CRUD_Operations\\BE_CRUD_Operations.Api.csproj|c:\\users\\marti\\desktop\\my-local-repo-folder\\crud-operations-project\\c.r.u.d_operations_project\\be_crud_operations\\be_crud_operations\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,32 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Domain\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "BE_CRUD_Operations.Domain\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Domain\\Models\\Student.cs",
-              "RelativeToolTip": "BE_CRUD_Operations.Domain\\Models\\Student.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T19:19:39.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DbRegistryExtension.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
-              "RelativeDocumentMoniker": "BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
-              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
-              "RelativeToolTip": "BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T08:04:13.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Data\\Repository\\StudentRepository.cs",
               "RelativeDocumentMoniker": "BE_CRUD_Operations.Data\\Repository\\StudentRepository.cs",
@@ -95,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Core\\Interfaces\\IServices\\IStudentService.cs",
               "RelativeDocumentMoniker": "BE_CRUD_Operations.Core\\Interfaces\\IServices\\IStudentService.cs",
@@ -113,14 +88,14 @@
               "RelativeDocumentMoniker": "BE_CRUD_Operations.Core\\Services\\StudentService.cs",
               "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Core\\Services\\StudentService.cs",
               "RelativeToolTip": "BE_CRUD_Operations.Core\\Services\\StudentService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwC4AAAAkAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAA4wC4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T23:22:48.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Core\\Dto\\StudentDTO.cs",
               "RelativeDocumentMoniker": "BE_CRUD_Operations.Core\\Dto\\StudentDTO.cs",
@@ -132,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "StudentResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Core\\ResponseDto\\StudentResponseDto.cs",
               "RelativeDocumentMoniker": "BE_CRUD_Operations.Core\\ResponseDto\\StudentResponseDto.cs",
@@ -140,7 +115,32 @@
               "RelativeToolTip": "BE_CRUD_Operations.Core\\ResponseDto\\StudentResponseDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T16:14:38.584Z"
+              "WhenOpened": "2024-03-24T16:14:38.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbRegistryExtension.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
+              "RelativeDocumentMoniker": "BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
+              "RelativeToolTip": "BE_CRUD_Operations\\Extension\\DbRegistryExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:04:13.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Domain\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "BE_CRUD_Operations.Domain\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\My-Local-Repo-Folder\\CRUD-Operations-Project\\C.R.U.D_Operations_Project\\BE_CRUD_Operations\\BE_CRUD_Operations.Domain\\Models\\Student.cs",
+              "RelativeToolTip": "BE_CRUD_Operations.Domain\\Models\\Student.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:19:39.751Z"
             },
             {
               "$type": "Document",
