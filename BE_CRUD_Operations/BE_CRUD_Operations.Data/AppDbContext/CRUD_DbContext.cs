@@ -13,7 +13,6 @@ namespace BE_CRUD_Operations.Data.AppDbContext
         public CRUD_DbContext(DbContextOptions<CRUD_DbContext> options) : base(options)
         {
         }
-
         public DbSet<Student> students { get; set; }
     }
 }

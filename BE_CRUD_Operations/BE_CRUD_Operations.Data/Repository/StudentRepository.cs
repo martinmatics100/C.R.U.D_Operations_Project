@@ -59,7 +59,9 @@ namespace BE_CRUD_Operations.Data.Repository
 
         public async Task UpdateAsync(Student entity)
         {
-            _context.Entry(entity).State = EntityState.Modified;
+            //_context.Entry(entity).State = EntityState.Modified;
+            _context.students.Update(entity);
+            await SaveChangesAsync();
         }
     }
 }
